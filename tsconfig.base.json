@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@nx-base/api-interfaces": ["libs/api-interfaces/src/index.ts"],
-      "@nx-base/api-database/*": ["apps/api/src/app/database/*"]
+      "@nx-base/api-database/*": ["apps/api/src/app/database/*"],
+      "@nx-base/api-controller/*": ["apps/api/src/app/controller/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
