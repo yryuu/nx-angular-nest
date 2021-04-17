@@ -1,6 +1,6 @@
 import { Controller, Get, Query } from '@nestjs/common';
-import { BaseController } from '@nx-base/api-controller/base/base.controller';
-import { UserService } from '@nx-base/api-database/service/user.service';
+import { BaseController } from '@nx-base/backend-api-controller/base/base.controller';
+import { UserService } from '@nx-base/backend-database/service/user.service';
 
 @Controller('easy-signup')
 export class EasySignupController extends BaseController {

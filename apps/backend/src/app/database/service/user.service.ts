@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { Repository } from 'typeorm';
-import { User } from '@nx-base/api-database/entity/user/user.entity';
+import { User } from '@nx-base/backend-database/entity/user/user.entity';
 import { InjectRepository } from '@nestjs/typeorm';
 import * as md5 from 'md5';
 

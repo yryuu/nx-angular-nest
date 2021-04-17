@@ -1,5 +1,5 @@
 import { Controller, Get } from '@nestjs/common';
-import { UserService } from '@nx-base/api-database/service/user.service';
+import { UserService } from '@nx-base/backend-database/service/user.service';
 
 @Controller('signin')
 export class SigninController {
